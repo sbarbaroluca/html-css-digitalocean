@@ -1,0 +1,45 @@
+.outline {
+    background-color: transparent;
+    color: inherit;
+}
+.btn-primary.outline {
+    color: #428bca;
+}
+.btn-primary.outline:hover,
+.btn-success.outline:hover,
+.btn-info.outline:hover,
+.btn-warning.outline:hover,
+.btn-danger.outline:hover {
+    color: #fff;
+}
+
+.jumbotron {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: 100%;
+    background-position: top;
+}
+
+#ms-logo {
+    height: 32px;
+}
+#text-form-blue {
+    color: #428bca;
+}
+#text-jumbotron-paragr {
+    font-size: 25px;
+    color: #fff;
+}
+#text-title {
+    color: #fff;
+}
+
+.color-grey {
+    background-color:;
+}
+
+h4 {
+    text-transform: uppercase;
+    color:grey;
+    font-size: 16px; 
+}
+
