@@ -17,10 +17,24 @@
     background-image: url("../img/bg-banner-home.jpg");
     background-size: 100%;
     background-position: top;
+    margin-bottom: 0px;
+}
+
+.navbar-default.ms_navbar {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: hsl(221,93%,16%)
 }
 
 #ms-logo {
-    height: 32px;
+    width: 160px;
+    height: 29px; 
+    margin-right: 60px;
 }
 #text-form-blue {
     color: #428bca;
@@ -33,8 +47,12 @@
     color: #fff;
 }
 
-.color-grey {
-    background-color:;
+.ms-form{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    margin: 30px;
 }
 
 h4 {
@@ -42,4 +60,38 @@ h4 {
     color:grey;
     font-size: 16px; 
 }
+
+#text-paragr-deploy {
+    color: lightslategray;
+    font-size: 20px;
+}
+
+#ms-list-deploy {
+    color: lightslategray;
+    font-size: 18px;
+    
+}
+
+.text-deploy-h3 {
+    font-size: 20px;
+}
+.text-paragr-deploy {
+    color: lightslategray;
+    font-size: 17px; 
+}
+
+.ms_colorgrey {
+    background-color: hsl(0, 0%, 90%);
+}
+.ms_color_white {
+    background-color:white;
+}
+
+#ms_section_loghi {
+    padding: 70px; 
+}
+
+
+
+
 

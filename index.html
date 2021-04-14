@@ -15,7 +15,7 @@
 
 	<!-- testata della pagina -->
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default ms_navbar">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -25,9 +25,10 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<img id="ms-logo" src="img/logo.png" alt="logo">
+					<a class="navbar-brand" href="#">
+						<img id="ms-logo" src="img/logo.png" alt="logo">
+					</a>
 				</div>
-
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
@@ -92,14 +93,28 @@
 						DigitalOcean. We make managing
 						infrastructure easy for teams and buisinesses, whether you're running one virtual machine or ten thousand.
 					</p>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="ms-form">
-								<h3>Deploy your app in second.
-									<span id="text-form-blue">Get strated now.</span>
-								</h3>
+
+				</div>
+				<div class="col-md-5">
+					<div class="ms-form">
+						<h3>Deploy your app in second.
+							<span id="text-form-blue">Get strated now.</span>
+						</h3>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+									placeholder="Email">
 							</div>
-						</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</form>
+						<input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit"
+							value="Create your account">
+						<a class="btn btn-lg btn-google btn-block btn-outline" href="#">
+							<img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sing up with google</a>
+						<p class="text-center">By signing up you agree to the <a href="#">Terms of Service</a></p>
+
 					</div>
 				</div>
 			</div>
@@ -109,23 +124,85 @@
 
 	<main>
 		<!-- sezione loghi -->
-		<section id="color-grey">
-			<div class="container text-center">
+		<section class="ms_colorgrey" id="ms_section_loghi">
+			<div class="container fluid text-center">
 				<div class="row">
 					<div class="col-md-12">
 						<h4>innovative buisiness trust digitalocean</h4>
 						<img src="img/docker.svg" alt="doker">
-						<img src="img/gitlab.svg" alt="doker">
-						<img src="img/slack.svg" alt="doker">
-						<img src="img/hashicorp.svg" alt="doker">
-						<img src="img/hashicorp.svg" alt="doker">
-						<img src="img/splunk.svg" alt="doker">
-						<a href="#">View customer stories ></a>
+						<img src="img/gitlab.svg" alt="gitlab">
+						<img src="img/slack.svg" alt="slack">
+						<img src="img/hashicorp.svg" alt="corp">
+						<img src="img/hashicorp.svg" alt="corp">
+						<img src="img/splunk.svg" alt="splunk">
+						<p><a href="#">View customer stories ></a></p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- /sezione loghi -->
+
+		<!-- sezione deploy -->
+		<section class="ms_color_white">
+			<div class="container fluid text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Deploy and scale seamlessly</h2>
+						<p id="text-paragr-deploy">Our optimized configuration process saves your team time when running and scaling
+							distrubuted applications, Al & machine learning workloads, hosted services, client websites, or CI,CD
+							environments.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="list-group" id="ms-list-deploy">
+							<li class="list-group-item">Deploy</li>
+							<li class="list-group-item">Manage</li>
+							<li class="list-group-item">Secure</li>
+							<li class="list-group-item">Scale</li>
+							<li class="list-group-item">Monitor</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<img src="img/cluster-deploy.svg" alt="cluster">
+						<h3 class="text-deploy-h3">Cluster Deployments</h3>
+						<p class="text-paragr-deploy">Provision multiple Droplets (virtual machines) in seconds with our control
+							panel, CLI, or directly against our API.</p>
+						<img src="img/one-click.svg" alt="one-click">
+						<h3 class="text-deploy-h3">One-click apps</h3>
+						<p class="text-paragr-deploy">Skip the install and configuration process with pre-built open source images
+							supporting Rails, Cassandra, Doker, and more.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/optimized-compute.svg" alt="optimized">
+						<h3 class="text-deploy-h3">Optimized compute types</h3>
+						<p class="text-paragr-deploy">Get the compute resources you need with Standard or Optimized Droplets.</p>
+						<img src="img/global.svg" alt="one-click">
+						<h3 class="text-deploy-h3">Global availability</h3>
+						<p class="text-paragr-deploy">Deploy to any of our data center regions around the world.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /sezione deploy -->
+
+		<!-- sezione design -->
+		<section class="ms_colorgrey">
+			<div class="container fluid text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Designed for developers</h2>
+						<p id="text-paragr-deploy">Build more and spend less time managing your infrastructure with our easy-to-use
+							control panel and API.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 	</main>
 </body>
 
