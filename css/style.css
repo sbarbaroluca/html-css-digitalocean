@@ -23,17 +23,18 @@
 .navbar-default.ms_navbar {
     background-color: #fff;
     border: none;
-    margin-bottom: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav>li>a{
     color: hsl(221,93%,16%)
 }
 
+.navbar-brand {
+    height: 100%;
+}
 #ms-logo {
-    width: 160px;
-    height: 29px; 
+    width: 160px; 
     margin-right: 60px;
 }
 #text-form-blue {
@@ -47,6 +48,9 @@
     color: #fff;
 }
 
+.table > th,td{
+    color: #fff;
+}
 .ms-form{
     background-color: #fff;
     border-radius: 10px;
@@ -81,7 +85,7 @@ h4 {
 }
 
 .ms_colorgrey {
-    background-color: hsl(0, 0%, 90%);
+    background-color: #F3F5F9;
 }
 .ms_color_white {
     background-color:white;
@@ -89,6 +93,14 @@ h4 {
 
 #ms_section_loghi {
     padding: 70px; 
+}
+
+#ms_slide {
+    width: 50%;
+}
+
+#ms_color_blue {
+    background-color: blue;
 }
 
 
