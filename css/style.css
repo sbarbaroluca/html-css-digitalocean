@@ -120,6 +120,7 @@ h4 {
     height: 50%;
 }
 
+
 #ms_color_blue {
     background-color: blue;
 }
@@ -151,6 +152,16 @@ h4 {
     list-style: none;
     text-align: justify;
 }
+
+section {
+    padding: 28px;
+}
+
+div {
+    padding: 8px;
+}
+
+
 
 @media (max-width: 991px) {
     .navbar-header {
