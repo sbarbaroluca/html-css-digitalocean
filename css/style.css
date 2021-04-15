@@ -27,14 +27,23 @@
 }
 
 .navbar-default .navbar-nav>li>a{
-    color: hsl(221,93%,16%)
+    color: hsl(221,93%,16%);
+}
+
+.ms_navbar .navbar-nav>li>a {
+    line-height: 30px;
+}
+
+.ms_navbar .navbar-btn {
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 .navbar-brand {
     height: 100%;
 }
 #ms-logo {
-    width: 160px; 
+    height: 30px; 
     margin-right: 60px;
 }
 #text-form-blue {
@@ -51,12 +60,16 @@
 .table > th,td{
     color: #fff;
 }
-.ms-form{
+.ms-form {
     background-color: #fff;
     border-radius: 10px;
     padding: 25px;
     text-align: center;
     margin: 30px;
+}
+.ms-form-2 {
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 h4 {
@@ -68,6 +81,10 @@ h4 {
 #text-paragr-deploy {
     color: lightslategray;
     font-size: 20px;
+}
+#text-paragr-Cofounder {
+    color: hsl(221,93%,16%);
+    font-size: 17px;
 }
 
 #ms-list-deploy {
@@ -98,9 +115,73 @@ h4 {
 #ms_slide {
     width: 50%;
 }
+#ms_rock {
+    width: 30%;
+    height: 50%;
+}
 
 #ms_color_blue {
     background-color: blue;
+}
+#ms-btn-get {
+    background-color: #fff;
+}
+
+#ms_color-darkblue {
+    background-color: hsl(221,93%,16%);
+}
+
+.text-footer-paragr {
+    color: lightseagreen;
+    font-size: 16px;
+}
+.text-footer-paragr-2 {
+    color: grey;
+    font-size: 14px;
+}
+
+.text-footer-h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.ms_list_footer {
+    color: lightseagreen;
+    font-size: 16px;
+    list-style: none;
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse:not(.in) {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ms_navbar .navbar-btn {
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
 }
 
 
