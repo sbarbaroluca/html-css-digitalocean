@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -113,7 +114,8 @@
 							value="Create your account">
 						<a class="btn btn-lg btn-google btn-block btn-outline" href="#">
 							<img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sing up with google</a>
-						<p class="text-center">By signing up you agree to the <a href="#">Terms of Service</a></p>
+						<p id="text-font-12" class="text-center">By signing up you agree to the <a id="text-font-12" href="#">Terms
+								of Service</a></p>
 
 					</div>
 				</div>
@@ -198,7 +200,12 @@
 						<p id="text-paragr-deploy">Build more and spend less time managing your infrastructure with our easy-to-use
 							control panel and API.</p>
 					</div>
-					<img id="ms_slide" src="img/slide.jpg" alt="slide">
+					<div class="img_arrow">
+						<i class="bi bi-arrow-left-square-fill"></i>
+						<i class="bi bi-arrow-right-square-fill"></i>
+						<img id="ms_slide" src="img/slide.jpg" alt="slide">
+					</div>
+
 					<h3 class="text-deploy-h3">Create compute servers in 55 second or less.</h3>
 					<nav aria-label="...">
 						<ul class="pager">
@@ -252,9 +259,9 @@
 								<table class="table">
 									<tbody>
 										<tr>
-											<td>AMS2</td>
-											<td>Amsterdam, Netherlands</td>
-											<td>
+											<td class="no_border">AMS2</td>
+											<td class="no_border">Amsterdam, Netherlands</td>
+											<td class="no_border">
 												<a>
 													Test speed >
 												</a>
@@ -312,9 +319,9 @@
 								<table class="table">
 									<tbody>
 										<tr>
-											<td>AMS2</td>
-											<td>Amsterdam, Netherlands</td>
-											<td>
+											<td class="no_border">AMS2</td>
+											<td class="no_border">Amsterdam, Netherlands</td>
+											<td class="no_border">
 												<a>
 													Test speed >
 												</a>
@@ -382,17 +389,19 @@
 					<div class="col-md-12">
 						<h2>Development teams love DigitalOcean</h2>
 					</div>
-					<div class="ms-form-2">
+					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<img id="ms_rock"
-									src="https://s.yimg.com/ny/api/res/1.2/F_0cL4_alCgzYtTSKOv8bg--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://www.accesswire.com/users/newswire/images/580241/image-20200311164217-1.png"
-									alt="slide">
-								<p id="text-paragr-deploy">"We have been able to make scaling the tecnical infrastructure of our
-									business cost effective and efficient".</p>
-								<h3 class="text-deploy-h3">Rick O'Toole</h3>
-								<p id="text-paragr-Cofounder">Co-founder and CTO</p>
-								<p><a href="#">Read story ></a></p>
+								<div class="ms-form-2">
+									<img id="ms_rock"
+										src="https://s.yimg.com/ny/api/res/1.2/F_0cL4_alCgzYtTSKOv8bg--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://www.accesswire.com/users/newswire/images/580241/image-20200311164217-1.png"
+										alt="slide">
+									<p id="text-paragr-deploy">"We have been able to make scaling the tecnical infrastructure of our
+										business cost effective and efficient".</p>
+									<h3 class="text-deploy-h3">Rick O'Toole</h3>
+									<p id="text-paragr-Cofounder">Co-founder and CTO</p>
+									<p><a href="#">Read story ></a></p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -432,7 +441,7 @@
 					</div>
 					<div class="col-md-2">
 						<h3 class="text-footer-h3">Company</h3>
-						<ol class="ms_list_footer">
+						<ul class="ms_list_footer">
 							<li>About</li>
 							<li>Leadership</li>
 							<li>Link</li>
@@ -443,11 +452,11 @@
 							<li>Events</li>
 							<li>Press</li>
 							<li>Legal & Security</li>
-						</ol>
+						</ul>
 					</div>
 					<div class="col-md-2">
 						<h3 class="text-footer-h3">Products</h3>
-						<ol class="ms_list_footer">
+						<ul class="ms_list_footer">
 							<li>Droplets</li>
 							<li>Spaces</li>
 							<li>Kubernets</li>
@@ -459,11 +468,11 @@
 							<li>Pricing</li>
 							<li>Documentation</li>
 							<li>Release Notes</li>
-						</ol>
+						</ul>
 					</div>
 					<div class="col-md-2">
 						<h3 class="text-footer-h3">Community</h3>
-						<ol class="ms_list_footer">
+						<ul class="ms_list_footer">
 							<li>Tutorials</li>
 							<li>Meetups</li>
 							<li>Q&A</li>
@@ -474,15 +483,15 @@
 							<li>Research Program</li>
 							<li>Currents Research</li>
 							<li>Open Source</li>
-						</ol>
+						</ul>
 					</div>
 					<div class="col-md-2">
 						<h3 class="text-footer-h3">Support</h3>
-						<ol class="ms_list_footer">
+						<ul class="ms_list_footer">
 							<li>Contact support</li>
 							<li>FAQ</li>
 							<li>Network Status</li>
-						</ol>
+						</ul>
 					</div>
 				</div>
 			</div>
